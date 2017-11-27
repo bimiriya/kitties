@@ -1,0 +1,26 @@
+@media (min-width: 1100px) {
+    .bg-img {
+        background-image: url(../images/sunny-day.jpg);
+    }
+    .kitty img {
+        content: url(../images/kitten-medium.png)
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1099px) {
+    .bg-img {
+        background-image: url(../images/night.jpg);
+    }
+    .kitty img {
+        content: url(../images/kitten-large.png)
+    }
+}
+
+@media (max-width: 799px) {
+    .bg-img {
+        background-image: url(../images/dawn.png);
+    }
+    .kitty img {
+        content: url(../images/kitten-small.png)
+    }
+}
