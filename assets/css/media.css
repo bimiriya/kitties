@@ -7,20 +7,20 @@
     }
 }
 
-@media (min-width: 800px) and (max-width: 1099px) {
+@media (min-width: 900px) and (max-width: 1099px) {
     .bg-img {
         background-image: url(../images/night.jpg);
     }
     .kitty img {
-        content: url(../images/kitten-large.png)
+        content: url(../images/kitten-small.png)
     }
 }
 
-@media (max-width: 799px) {
+@media (max-width: 899px) {
     .bg-img {
         background-image: url(../images/dawn.png);
     }
     .kitty img {
-        content: url(../images/kitten-small.png)
+        content: url(../images/kitten-large.png)
     }
 }
